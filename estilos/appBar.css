@@ -1,0 +1,52 @@
+/*Barra de Navegação*/
+
+  .app-bar
+  {
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+  }
+
+  .app-bar-title
+  {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color: #23282c;
+    color:white;
+    height:100px;
+    margin:auto;
+    padding: 10px;
+  }
+
+  .app-bar-subtitle
+  {
+    background-color: #0073aa;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+  }
+
+  .app-bar-subtitle>a
+  {
+    text-decoration:underline;
+    color:white;
+    text-shadow: 1px 1px 3px black;
+    font-size:18px;
+  }
+
+  .img-profile
+  {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+/**/

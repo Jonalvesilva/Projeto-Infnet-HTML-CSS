@@ -1,0 +1,180 @@
+/*Default*/
+  
+  body
+  {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+
+/**/
+
+/*Mobile Media Query*/
+  
+  @media screen and (max-width: 600px)
+  {
+    .div-publicacao
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .div-title>h3
+    {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    
+    .div-img
+    {
+      width: 25rem;
+      margin: auto;
+    }
+
+    .img-item
+    {
+      width: 25rem;
+      height: auto;
+      object-fit: cover;
+      max-width: 25rem;
+    }
+
+    .div-noticia
+    {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    
+    .div-noticia>p
+    {
+      line-height: 2.2rem;
+      font-size: 1.5rem;
+      text-align: justify;
+    }
+    
+
+    
+  }
+
+/**/
+
+/*Tablet Media Query*/
+
+@media screen and (min-width: 601px) and (max-width:1264px)
+{
+    .div-publicacao
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .div-title>h3
+    {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    
+    .div-img
+    {
+      width: 30rem;
+      margin: auto;
+    }
+
+    .img-item
+    {
+      width: 30rem;
+      height: auto;
+      object-fit: cover;
+      max-width: 30rem;
+    }
+
+    .div-noticia
+    {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    
+    .div-noticia>p
+    {
+      line-height: 2.5rem;
+      font-size: 1.7rem;
+      text-align: justify;
+    }
+    
+
+    
+  }
+
+/**/
+
+/*Desktop Media Query*/
+  @media screen and (min-width: 1265px)
+  {
+
+    .div-publicacao
+    {
+      width: 100%;
+      height: calc(100vh - 170px);
+      display: flex;
+      gap: 20px;
+    }
+    
+    .container
+    {
+      padding-left: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    
+    .div-title>h3
+    {
+      font-size: 2.2rem;
+      margin: 0;
+      text-align: center;
+    }
+    
+    .div-img
+    {
+      width: 40rem;
+    }
+
+    .img-item
+    {
+      width: 40rem;
+      height: auto;
+      object-fit: cover;
+      max-width: 40rem;
+      border-radius: 5px;
+    }
+
+    .div-noticia
+    {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .div-noticia>p
+    {
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+      text-align: justify;
+      margin: 10px 0;
+    }
+  }
+
+/**/

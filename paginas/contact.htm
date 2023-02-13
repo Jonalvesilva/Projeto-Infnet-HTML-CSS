@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blog do Jonathan</title>
+  <link href="/estilos/appBar.css" rel="stylesheet" type="text/css" />
+  <link href="/estilos/contact.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+  <!-- Início Barra de Navegação -->
+
+  <div class="app-bar">
+    <div class="app-bar-title">
+      <img class="img-profile" src="/img/profile.jpg">
+      <h1 class="title">Blog do Jonathan</h1>
+    </div>
+    <div class="app-bar-subtitle">
+      <a href="/index.html">Home</a>
+      <a href="/paginas/aboutBlog.htm">About Blog</a>
+      <a href="#">About Me</a>
+      <a href="/paginas/contact.htm">Contact</a>
+    </div>
+  </div>
+
+  <!-- Fim Barra de Navegação  -->
+  
+  <!-- Início Formulário -->
+  
+  <div class="formulario">
+    <form method="POST" action="https://getform.io/f/951427d5-779f-4328-8c03-3a3647d88713">
+      <div class="form-title">
+        <h2>Contact Us</h2>
+      </div>  
+      <div class="nome-sobrenome">
+        <label>Nome:</label>
+        <input type="text" placeholder="Seu Nome" name="nome" required>
+        <label>Sobrenome:</label>
+        <input type="text" placeholder="Seu Sobrenome" name="sobrenome" required>
+      </div>
+      <label>Genero:</label>
+      <div class="radio-genero">
+        <div class="radio-item">
+          <input type="radio" name="genero" value="masculino" required>
+          <label>Masculino</label>
+        </div>
+        <div class="radio-item">
+          <input type="radio" name="genero" value="feminino" required>
+          <label>Feminino</label>
+        </div>
+        <div class="radio-item">
+          <input type="radio" name="genero" value="nao definido" required>
+          <label>Não Definido</label>
+        </div>  
+      </div>
+      <div class="email">
+        <label>Email:</label>
+        <input type="email" placeholder="Seu email" name="email" required>
+      </div>
+      <div class="telefone">
+        <label>Telefone:</label>
+        <input type="number" placeholder="Seu número" name="numero" required>
+      </div>
+      <div class="comentario">
+        <label>Comentário / Sugestão:</label>
+        <textarea class="textAreaComentario" placeholder="Escreva aqui seu comentário ou sugestão" name="message" required></textarea>
+      </div>
+      <input class="submitForm" type="submit" value="Enviar">
+    </form>
+  </div>
+  
+  <!--  Fim Formulário   -->
+</body>
+
+</html>
+  
+  

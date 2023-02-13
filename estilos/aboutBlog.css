@@ -1,0 +1,47 @@
+/*Default*/
+
+  html, body 
+  {
+    width: 100%;
+    height: auto;
+    background-color:  #f1f1f1;
+    margin: 0;
+  }
+
+/**/
+
+
+/*Media Query - Mobile Screen*/
+
+  @media screen and (max-width: 375px)
+  {
+    .container
+    {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .container-item
+    {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .container-item-img
+    {
+      width: 100%;
+    }
+
+    .container-item-sobre-texto1
+    {
+      text-align: justify;
+      font-size: 18px;
+      font-family: helvetica;
+      line-height: 1.5;
+    }
+    
+  }
+/**/

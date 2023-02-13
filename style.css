@@ -1,0 +1,356 @@
+html, body {
+  width: 100%;
+  height: auto;
+  background-color:  #f1f1f1;
+  margin: 0;
+}
+
+/*Corpo da Pagina*/
+  
+  .body-blog
+  {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  
+/**/
+
+
+/* Cards Anúncio*/
+
+ .container-noticias-item-publish
+  {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-noticias-item-publish > .a-mobile
+  {
+    display: none;
+  }
+
+  .container-noticias-item-publish-img-mobile
+  {
+       display: none;
+  }
+
+  .container-noticias-item-publish-img-lateral
+  {
+    object-fit: contain;
+    width: 100%;
+    padding: 10px;
+  }
+
+/**/
+
+
+/*Cards Noticias*/
+
+  .container-noticias
+  {
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-noticias > a
+  {
+    color:black;
+    text-decoration: none;
+  }
+
+  .container-noticias-item
+  {
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius:5px;
+    padding:10px 15px;
+    margin: 1rem 0;
+    display: flex;
+    max-width: max-content;
+    gap:20px;
+    align-items:center;
+  
+  }
+  
+  #link1 > div:hover, #link2 > div:hover, #link3 > div:hover, #link4 > div:hover, #link5 > div:hover
+  {
+    background-color: #e8e8e8;
+  }
+
+  .container-noticias-item-info
+  {
+      margin-right: 1.3rem;
+  }
+
+  .container-noticias-item-info > *
+  {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container-noticias-item-info > h3
+  {
+      text-align: justify;
+  }
+
+  .container-noticias-item-info > p
+  {
+      font-weight: 200;
+      text-align: justify;
+  }
+
+  .container-noticias-item-img
+  {
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+    max-width: 5rem;
+    margin: 1rem 0;
+    border-radius:5px;
+  }
+  
+/**/
+
+
+/*Media Query - Mobile Screen*/
+
+  @media screen and (min-width: 526px)
+  {
+      .container-noticias-item-info > *
+      {
+          font-size: normal;
+          text-align: justify;
+      }
+  
+      .container-noticias-item-img
+      {
+        display:none;
+      }
+
+      .container-noticias-item-publish>.a-lateral
+      {
+        display: none;  
+      }
+      
+      .container-noticias-item-publish-img-lateral
+      {
+        display: none;
+      }
+
+      .container-noticias-item-publish>.a-mobile
+      {
+        display: block;  
+      }
+      
+      .container-noticias-item-publish-img-mobile
+      {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        margin:10px 0;
+        
+      }
+      
+    }
+
+  @media screen and (max-width: 525px)
+  {
+      .container-noticias-item-info > *
+      {
+          font-size: normal;
+          text-align: justify;
+      }
+  
+      .container-noticias-item-img
+      {
+        display:none;
+      }
+
+      .container-noticias-item-publish>.a-lateral
+      {
+        display: none;  
+      }
+      
+      .container-noticias-item-publish-img-lateral
+      {
+        display: none;
+      }
+
+      .container-noticias-item-publish>.a-mobile
+      {
+        display: block;  
+      }
+      
+      .container-noticias-item-publish-img-mobile
+      {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        margin:10px 0;
+        
+      }
+
+    }
+
+/**/
+
+
+/*Media Query - Tablet Screen*/
+
+  @media screen and (min-width: 992px) 
+  {
+  
+      .body-blog
+      {
+        display: flex;
+        padding-top: 20px;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        column-gap: 1em;
+        max-width: 70%;
+        flex-direction: row;
+      }
+  
+      .container-noticias-item-info > h3
+      {
+          font-size: x-large;
+      }
+
+      .container-noticias-item-info > p
+      {
+        text-align: justify;
+      }
+  
+      .container-noticias
+      {
+        max-width: 67%;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .container-noticias-item
+      {
+        background-color: #FFF;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        border-radius:5px;
+        padding:10px 15px; 
+        margin: 1rem 0;
+        display: flex;
+      }
+    
+      .container-noticias-item-img
+      {
+        max-width: 15rem;
+        object-fit:contain;
+        display:block;
+      }
+  
+      .container-noticias-publish
+      {
+          max-width: max-content;
+          display: flex;
+          flex-direction: column;
+      }
+
+      .container-noticias-item-publish>.a-lateral
+      {
+        display: block;  
+      }
+      
+      .container-noticias-item-publish-img-lateral
+      {
+        display: block;
+      }
+
+      .container-noticias-item-publish>.a-mobile
+      {
+        display: none;  
+      }
+      
+      .container-noticias-item-publish-img-mobile
+      {
+        display:none;
+      }
+  
+    }
+
+  @media screen and (min-width: 600px) and (max-width:992px)
+  {
+      .container-noticias-item-img
+      {
+        max-width: 15rem;
+        object-fit:contain;
+        display:block;
+        visibility:visible;
+      }
+
+      .container-noticias-item-publish
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container-noticias-item-publish>.a-lateral
+      {
+        display: none;  
+      }
+      
+      .container-noticias-item-publish-img-lateral
+      {
+        display: none;
+      }
+
+      .container-noticias-item-publish>.a-mobile
+      {
+        display: block;  
+      }
+      
+      .container-noticias-item-publish-img-mobile
+      {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        margin:10px 0;
+        
+      }
+      
+    }
+
+/**/
+
+
+/*Media Query - Ocultar Imagem Noticia entre 992 e 1150px*/
+  
+  @media screen and (min-width: 993px) and (max-width:1150px)
+  {
+      .container-noticias-item-img
+      {
+        display: none;
+      }
+    }
+  
+/**/
+
+
+/*Media Query - Para tela maior que 1920px de width*/
+
+  @media screen and (min-width: 1921px)
+  {
+    .container-noticias-item-publish
+    {
+      max-width: 430px;
+      width: 100%;
+    }
+
+  }
+  
+/**/
