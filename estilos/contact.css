@@ -48,7 +48,7 @@
       justify-content: space-between;
     }
 
-    input[type=text],input[type=email],input[type=number]
+    input[type=text],input[type=email],input[type=tel]
     {
       height: 35px;
       margin-bottom: 15px;
@@ -127,7 +127,7 @@
       justify-content: space-between;
     }
 
-    input[type=text],input[type=email],input[type=number]
+    input[type=text],input[type=email],input[type=tel]
     {
       height: 35px;
       margin-bottom: 15px;
@@ -206,7 +206,7 @@
       justify-content: space-between;
     }
 
-    input[type=text],input[type=email],input[type=number]
+    input[type=text],input[type=email],input[type=tel]
     {
       height: 35px;
       margin-bottom: 15px;
@@ -290,7 +290,7 @@
       justify-content: space-between;
     }
 
-    input[type=text],input[type=email],input[type=number]
+    input[type=text],input[type=email],input[type=tel]
     {
       height: 35px;
       margin-bottom: 15px;
@@ -370,7 +370,7 @@
       justify-content: space-between;
     }
 
-    input[type=text],input[type=email],input[type=number]
+    input[type=text],input[type=email],input[type=tel]
     {
       height: 35px;
       margin-bottom: 15px;
@@ -456,7 +456,7 @@
     justify-content: space-between;
   }
 
-  input[type=text],input[type=email],input[type=number]
+  input[type=text],input[type=email],input[type=tel]
   {
     height: 25px;
     margin-bottom: 25px;
